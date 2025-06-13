@@ -1,0 +1,12 @@
+NPAD
+<add name="conoracle" connectionString="Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=10.58.102.27)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME= DMS)));User Id=muldms;Password=muldms;" providerName="Oracle.DataAccess.Client" />
+
+<add name="conoracle_PullApi" connectionString="Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=10.58.102.27)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME= DMS)));User Id=muldms;Password=muldms;" providerName="Oracle.DataAccess.Client" />
+ 
+
+Mtab
+ <add name="conoracle_PushApi" connectionString="Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=10.58.102.27)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME= DMS)));User Id=muldms;Password=muldms;Validate Connection=true" providerName="Oracle.DataAccess.Client" />
+
+<add name="ConnectionStrings" connectionString="Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=10.58.102.27)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME= DMS)));User Id=muldms;Password=muldms;Validate Connection=true" providerName="Oracle.DataAccess.Client" />
+
+<add name="conoracle_PullApi" connectionString="Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=10.58.102.27)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME= DMS)));User Id=muldms;Password=muldms;Validate Connection=true" providerName="Oracle.DataAccess.Client" />
